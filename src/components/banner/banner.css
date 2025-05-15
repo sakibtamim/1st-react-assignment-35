@@ -1,0 +1,58 @@
+/* banner part start */
+#banner {
+  padding-bottom: 128px;
+  padding-top: 220px;
+  background-color: #1c1e53;
+}
+.banner_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.banner_txt {
+  width: 48%;
+}
+.banner_txt h1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  padding-bottom: 24px;
+  color: #fff;
+}
+.banner_txt p {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.702);
+  line-height: 28px;
+  padding-bottom: 48px;
+}
+.banner_txt .view {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.view .view_work a {
+  padding: 16px 56px;
+  background-color: #fcd980;
+  border-radius: 41px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Manrope", serif;
+  color: #1b1c2b;
+}
+.view .view_price a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.view .view_price img {
+  padding-left: 16px;
+}
+.banner_img {
+  width: 48%;
+}
+.banner_img img {
+  width: 100%;
+}
+/* banner part end */

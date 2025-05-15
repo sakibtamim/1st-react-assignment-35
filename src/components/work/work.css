@@ -1,0 +1,62 @@
+/* work part start */
+#work {
+  padding: 128px 0;
+  background-color: #f4f6fc;
+}
+.work_main {
+  display: flex;
+  justify-content: space-between;
+}
+.work_left {
+  width: 40%;
+}
+.work_left h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  padding-bottom: 16px;
+}
+.work_left p {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(40, 41, 56, 0.708);
+  text-align: justify;
+  padding-right: 157px;
+  padding-bottom: 16px;
+}
+.work_left .get_touch a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2405f2;
+}
+.work_left .get_touch img {
+  padding-left: 13px;
+}
+.work_right {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 0;
+}
+.body_inner {
+  width: 50%;
+}
+
+.body_item img {
+  width: 50px;
+  padding-bottom: 16px;
+}
+.body_item h5 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #282938;
+  padding-bottom: 8px;
+}
+.body_item p {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(27, 28, 43, 0.709);
+  padding-right: 50px;
+}
+
+/* work part end */

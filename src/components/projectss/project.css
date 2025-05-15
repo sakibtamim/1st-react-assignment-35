@@ -1,0 +1,161 @@
+/* project part start */
+#project {
+  padding: 128px 0;
+  background: #fff;
+}
+.project_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 64px;
+}
+.project_head h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+}
+.project_head .view_more a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #282938;
+}
+.project_head .view_more img {
+  padding-left: 16px;
+}
+.project_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project_main_left {
+  width: 66%;
+  position: relative;
+}
+.project_main_left .card1_overlay {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#1c1e53, rgba(28, 30, 83, 0.42));
+  transition: 0.5s;
+}
+.project_main_left:hover .card1_overlay {
+  width: 100%;
+}
+.project_main_left:hover .card1_overlay h3 {
+  padding-right: 400px;
+}
+.project_main_left:hover .card1_overlay p {
+  padding-right: 450px;
+}
+.card1_overlay .card1_inner {
+  padding: 312px 35px 76px 48px;
+}
+.card1_overlay .card1_inner h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 16px;
+  transition: 0.5s;
+}
+.card1_overlay .card1_inner p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.801);
+  padding-right: 30px;
+  padding-bottom: 40px;
+  transition: 0.5s;
+}
+.card1_overlay .card1_inner a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fcd980;
+}
+.card1_overlay .card1_inner img {
+  padding-left: 16px;
+}
+.project_main_right {
+  width: 32.5%;
+}
+.project_main_right .card2 {
+  position: relative;
+}
+.project_main_right .card2 .card2_overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#1c1e53, rgba(28, 30, 83, 0.42));
+  transition: 0.5s;
+  opacity: 0;
+}
+.project_main_right .card2:hover .card2_overlay {
+  opacity: 1;
+}
+.card2_overlay .card2_inner {
+  padding: 129px 36px 45px 56px;
+}
+.card2_overlay .card2_inner h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 10px;
+  padding-right: 30px;
+}
+.card2_overlay .card2_inner a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fcd980;
+}
+.card2_overlay .card2_inner img {
+  padding-left: 16px;
+}
+.project_main_right .card3 {
+  margin-top: 32px;
+  margin-left: 9px;
+  position: relative;
+}
+
+.project_main_right .card3 .card3_overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#1c1e53, rgba(28, 30, 83, 0.42));
+  transition: 0.5s;
+  opacity: 0;
+}
+.project_main_right .card3:hover .card3_overlay {
+  opacity: 1;
+}
+.card3_overlay .card3_inner {
+  padding: 129px 36px 45px 56px;
+}
+.card3_overlay .card3_inner h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 10px;
+  padding-right: 30px;
+}
+.card3_overlay .card3_inner a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fcd980;
+}
+.card3_overlay .card3_inner img {
+  padding-left: 16px;
+}
+.card2 .card2_img img {
+  width: 100%;
+}
+.card3 .card3_img img {
+  width: 100%;
+}
+.card1 img {
+  width: 100%;
+}
+/* project part end */

@@ -1,0 +1,92 @@
+/* form part start */
+#form {
+  padding-bottom: 128px;
+}
+.form_main {
+  width: 100%;
+  background-color: #1c1e53;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form_img {
+  width: 50%;
+  position: relative;
+}
+.form_img img {
+  width: 100%;
+  opacity: 50%;
+}
+.form_img .form_img_txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 96px 96px 0 96px;
+}
+.form_img .form_img_txt h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 24px;
+}
+.form_img .form_img_txt p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.form_input {
+  width: 50%;
+  box-sizing: border-box;
+}
+form {
+  padding: 0 96px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+form h5 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 16px;
+}
+form p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #f4f6fc;
+  padding-bottom: 24px;
+}
+form input {
+  padding: 18px 32px;
+  background-color: #1c1e53;
+  border-radius: 8px;
+  border-color: rgba(255, 255, 255, 0.052);
+  margin: 16px 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #f4f6fc;
+}
+form button {
+  padding: 16px 0;
+  width: 100%;
+  border-radius: 41px;
+  background-color: #fcd980;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Manrope", serif;
+  color: #1b1c2b;
+  margin-top: 23px;
+}
+form .get_touch {
+  text-align: center;
+  padding-top: 28px;
+}
+form .get_touch a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+form .get_touch img {
+  padding-left: 12px;
+}
+/* form part end */
