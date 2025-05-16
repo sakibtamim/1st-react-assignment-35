@@ -1,5 +1,5 @@
 import Header from "./components/header/Header";
-import Banner from "./components/banner/banner";
+import Banner from "./components/banner/Banner";
 import Work from "./components/work/Work";
 import Project from "./components/projectss/Project";
 import Feature from "./components/feature/Feature";
