@@ -9,23 +9,23 @@ const Work = () => {
   return (
     <>
       <section id="work">
-        <div class="container">
-          <div class="work_main">
-            <div class="work_left">
+        <div className="container">
+          <div className="work_main">
+            <div className="work_left">
               <h2>How we work</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
-              <div class="get_touch">
+              <div className="get_touch">
                 <a href="#">
                   Get in touch with us <img src={ArrowBlue} alt="Arrow" />
                 </a>
               </div>
             </div>
-            <div class="work_right">
-              <div class="body_inner">
-                <div class="body_item">
+            <div className="work_right">
+              <div className="body_inner">
+                <div className="body_item">
                   <img src={Pointer1} alt="pointer" />
                   <h5>Strategy</h5>
                   <p>
@@ -34,8 +34,8 @@ const Work = () => {
                   </p>
                 </div>
               </div>
-              <div class="body_inner">
-                <div class="body_item">
+              <div className="body_inner">
+                <div className="body_item">
                   <img src={Pointer2} alt="pointer" />
                   <h5>Strategy</h5>
                   <p>
@@ -44,8 +44,8 @@ const Work = () => {
                   </p>
                 </div>
               </div>
-              <div class="body_inner">
-                <div class="body_item">
+              <div className="body_inner">
+                <div className="body_item">
                   <img src={Pointer3} alt="pointer" />
                   <h5>Strategy</h5>
                   <p>
@@ -54,8 +54,8 @@ const Work = () => {
                   </p>
                 </div>
               </div>
-              <div class="body_inner">
-                <div class="body_item">
+              <div className="body_inner">
+                <div className="body_item">
                   <img src={Pointer4} alt="pointer" />
                   <h5>Strategy</h5>
                   <p>

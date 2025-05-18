@@ -7,11 +7,11 @@ const Form = () => {
   return (
     <>
       <section id="form">
-        <div class="container">
-          <div class="form_main">
-            <div class="form_img">
+        <div className="container">
+          <div className="form_main">
+            <div className="form_img">
               <img src={FormImg} alt="form_img" />
-              <div class="form_img_txt">
+              <div className="form_img_txt">
                 <h2>Building stellar websites for early startups</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -20,7 +20,7 @@ const Form = () => {
                 </p>
               </div>
             </div>
-            <div class="form_input">
+            <div className="form_input">
               <form action="">
                 <h5>Send inquiry</h5>
                 <p>
@@ -35,7 +35,7 @@ const Form = () => {
                   required
                 />
                 <button>Send an Inquiry</button>
-                <div class="get_touch">
+                <div className="get_touch">
                   <a href="html/contact_us.html">
                     Get in touch with us
                     <img src={Arrow} alt="Arrow" />

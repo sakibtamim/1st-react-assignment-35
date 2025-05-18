@@ -9,13 +9,13 @@ const Blog = () => {
   return (
     <>
       <section id="blog">
-        <div class="container">
-          <div class="blog_head">
+        <div className="container">
+          <div className="blog_head">
             <h2>Our blog</h2>
           </div>
-          <div class="blog_main">
-            <div class="blog_body">
-              <div class="blog_item">
+          <div className="blog_main">
+            <div className="blog_body">
+              <div className="blog_item">
                 <img src={Blog1} alt="b01" />
                 <span>19 Jan 2022</span>
                 <h6>
@@ -26,15 +26,15 @@ const Blog = () => {
                   See how pivoting to Webflow changed one person’s sales
                   strategy and allowed him to attract
                 </p>
-                <div class="read_more">
+                <div className="read_more">
                   <a href="#">
                     Read more <img src={ArrowDark} alt="Arrow" />
                   </a>
                 </div>
               </div>
             </div>
-            <div class="blog_body">
-              <div class="blog_item">
+            <div className="blog_body">
+              <div className="blog_item">
                 <img src={Blog2} alt="b02" />
                 <span>19 Jan 2022</span>
                 <h6>
@@ -45,15 +45,15 @@ const Blog = () => {
                   See how pivoting to Webflow changed one person’s sales
                   strategy and allowed him to attract
                 </p>
-                <div class="read_more">
+                <div className="read_more">
                   <a href="#">
                     Read more <img src={ArrowDark} alt="Arrow" />
                   </a>
                 </div>
               </div>
             </div>
-            <div class="blog_body">
-              <div class="blog_item">
+            <div className="blog_body">
+              <div className="blog_item">
                 <img src={Blog3} alt="b03" />
                 <span>19 Jan 2022</span>
                 <h6>
@@ -64,7 +64,7 @@ const Blog = () => {
                   See how pivoting to Webflow changed one person’s sales
                   strategy and allowed him to attract
                 </p>
-                <div class="read_more">
+                <div className="read_more">
                   <a href="#">
                     Read more <img src={ArrowDark} alt="Arrow" />
                   </a>

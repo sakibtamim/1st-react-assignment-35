@@ -5,14 +5,14 @@ const Header = () => {
   return (
     <>
       <header id="nav">
-        <div class="container">
-          <div class="nav_main">
-            <div class="nav_logo">
+        <div className="container">
+          <div className="nav_main">
+            <div className="nav_logo">
               <a href="index.html">
                 <img src={Logo} alt="logo" />
               </a>
             </div>
-            <div class="nav_menu">
+            <div className="nav_menu">
               <ul>
                 <li>
                   <a href="index.html">Home</a>
